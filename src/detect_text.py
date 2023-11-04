@@ -1,3 +1,4 @@
+# code taken from https://cloud.google.com/vision/docs/handwriting#vision-document-text-detection-python
 def detect_document(path):
     """Detects document features in an image."""
     from google.cloud import vision
